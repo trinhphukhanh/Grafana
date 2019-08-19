@@ -1,4 +1,3 @@
-[
   {
     "columns":[
       {"text":"Time","type":"time"},
@@ -12,4 +11,4 @@
     ],
     "type":"table"
   }
-]
+
