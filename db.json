@@ -1,4 +1,5 @@
- {
+[
+  {
     "columns":[
       {"text":"Time","type":"time"},
       {"text":"Country","type":"string"},
@@ -11,4 +12,4 @@
     ],
     "type":"table"
   }
-
+]
