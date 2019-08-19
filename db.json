@@ -1,15 +1,27 @@
-[
-  {
-    "columns":[
-      {"text":"Time","type":"time"},
-      {"text":"Country","type":"string"},
-      {"text":"Number","type":"number"}
-    ],
-    "rows":[
-      [1234567,"SE",123],
-      [1234567,"DE",231],
-      [1234567,"US",321]
-    ],
-    "type":"table"
-  }
-]
+{
+  "panelId": 1,
+  "range": {
+    "from": "2016-10-31T06:33:44.866Z",
+    "to": "2016-10-31T12:33:44.866Z",
+    "raw": {
+      "from": "now-6h",
+      "to": "now"
+    }
+  },
+  "rangeRaw": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "interval": "30s",
+  "intervalMs": 30000,
+  "maxDataPoints": 550,
+  "targets": [
+     { "target": "upper_50", "refId": "A", "type": "timeseries", "data": { "additional": "optional json" } },
+     { "target": "upper_75", "refId": "B", "type": "timeseries" }
+  ],
+  "adhocFilters": [{
+    "key": "City",
+    "operator": "=",
+    "value": "Berlin"
+  }]
+}
