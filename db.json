@@ -1,4 +1,4 @@
-  {
+{ "IT-Produkt": [{
     "columns":[
       {"text":"Time","type":"time"},
       {"text":"Country","type":"string"},
@@ -10,5 +10,5 @@
       [1234567,"US",321]
     ],
     "type":"table"
-  }
+  }]}
 
